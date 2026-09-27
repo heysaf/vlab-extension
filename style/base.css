@@ -3,3 +3,10 @@
 
     https://jupyterlab.readthedocs.io/en/stable/developer/css.html
 */
+
+.drooling {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+}

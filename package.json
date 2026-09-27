@@ -52,7 +52,12 @@
         "watch:labextension": "jupyter-builder watch ."
     },
     "dependencies": {
-        "@jupyterlab/application": "^4.0.0"
+        "@jupyterlab/application": "^4.5.11",
+        "@jupyterlab/apputils": "^4.6.11",
+        "@jupyterlab/completer": "^4.5.11",
+        "@jupyterlab/docregistry": "^4.5.11",
+        "@jupyterlab/filebrowser": "^4.5.11",
+        "@lumino/widgets": "^2.9.0"
     },
     "devDependencies": {
         "@eslint/js": "^9.0.0",
