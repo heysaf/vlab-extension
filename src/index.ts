@@ -39,9 +39,6 @@ const plugin: JupyterFrontEndPlugin<void> = {
       new AutoClose(app) // Initialise the auto-closing parenthesis, brackets, etc...
     }
 
-
-    // // Add the command to the palette.
-    // palette.addItem({ command, category: 'idek' });
   }
 };
 
